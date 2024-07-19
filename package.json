@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "one-listen",
   "private": true,
   "type": "module",
   "scripts": {
@@ -13,5 +13,8 @@
     "@tauri-apps/api": "^1.6.0",
     "nuxt": "^3.12.3",
     "vue": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.0"
   }
 }
