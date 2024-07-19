@@ -1,6 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
+  modules: [
+    '@nuxtjs/tailwindcss'
+  ],
+  devtools: {
+    enabled: true,
+
+    timeline: {
+      enabled: true
+    }
+  },
   // Enable SSG
   ssr: false,
   // Enables the development server to be discoverable by other devices for mobile development
