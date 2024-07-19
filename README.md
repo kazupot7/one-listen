@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# OneListen
 
-## Getting Started
+## Motivation
 
-First, run the development server:
+When I listen to music, I often encounter copyright restrictions that require me to use different apps to listen to a song. My goal is to create an app that consolidates music listening into one seamless experience. This idea has been explored in [listen1](https://github.com/listen1), but I aim to reimplement it using Rust and the [Tauri](https://tauri.app/) framework for a more integrated solution.
+
+## Development
+
+The frontend of the app is developed with [Next.js](https://nextjs.org/), so you will need Node.js and npm installed on your system. Follow the instructions on their respective websites to get set up.
+
+### Setting Up
+
+Before starting the app development, you need to install `tauri-cli`. This tool is essential for Tauri development. Install it using Cargo with the following command:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cargo install tauri-cli
 ```
+### Running the App
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To start developing the app on Windows, use the following command:
+```bash
+cargo tauri dev
+```
+This command initiates the development server, allowing you to test and develop the app in real-time.
