@@ -1,6 +1,11 @@
+<script setup lang="ts">
+
+</script>
+
+
 <template>
     <div>
-        <div class="bg-slate-700">title bar</div>
+        <TitleBar />
         <div class="bg-blue-600">
             <slot />
         </div>
