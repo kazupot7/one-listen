@@ -22,3 +22,10 @@ To start developing the app on Windows, use the following command:
 cargo tauri dev
 ```
 This command initiates the development server, allowing you to test and develop the app in real-time.
+
+
+## Music Providers
+
+### NetEase Cloud Music
+
+[rust for NetEase Cloud Music](https://github.com/tthzwq/NeteaseCloudMusic)
