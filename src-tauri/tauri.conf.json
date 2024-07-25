@@ -12,6 +12,16 @@
   "tauri": {
     "allowlist": {
       "all": false,
+      "shell": {
+        "open": true
+      },
+      "http": {
+        "request": true,
+        "scope": [
+          "http://**",
+          "https://**"
+        ]
+      },
       "window": {
         "all": true
       }
